@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f57a22c-82b3-484d-b043-c45d5dd3bf90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NgHcIU5JVwMdtHIbX0CiZNCb2P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/raghav.suneja/OneDrive - Gemini Solutions/Desktop/GemHeal111/gemHeal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raghav.suneja\Downloads\MethodGenerator-main\Maven-serenity-healenium\src\test\resources\drivers" />
+      <recent name="C:\Users\raghav.suneja\Downloads\MethodGenerator-main\Maven-serenity-healenium\src\test\resources" />
+      <recent name="C:\Users\raghav.suneja\Downloads\MethodGenerator-main\Maven-serenity-healenium\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raghav.suneja\Downloads\MethodGenerator-main\Maven-serenity-healenium\src\test\java\com\gemini\mis\stepdefinitions" />
+      <recent name="C:\Users\raghav.suneja\Downloads\MethodGenerator-main\Maven-serenity-healenium\src\test\resources\drivers" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSuiteRunner">
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name=" [clean test aggregate]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="test" />
+            <option value="aggregate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSuiteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven-serenity-healenium" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gemini.mis.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gemini.mis.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.gemini.mis.runner.TestSuiteRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle. [clean test aggregate]" />
+      <item itemvalue="JUnit.TestSuiteRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSuiteRunner" />
+        <item itemvalue="JUnit.TestSuiteRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f57a22c-82b3-484d-b043-c45d5dd3bf90" name="Changes" comment="" />
+      <created>1680078884735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680078884735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/handlers/proxy/BaseHandler.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/HealingProcessor.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/Context.class</url>
+          <line>94</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>62</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/HealingProcessor.class</url>
+          <line>35</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>51</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/config/ProcessorConfig.class</url>
+          <line>22</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/handlers/SelfHealingHandler.class</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/Context.class</url>
+          <line>16</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/BaseProcessor.class</url>
+          <line>17</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingDriver.class</url>
+          <line>18</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>46</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/handlers/proxy/SelfHealingProxyInvocationHandler.class</url>
+          <line>19</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>162</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>168</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>173</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/callback/HttpCallback.class</url>
+          <line>17</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealedElement.class</url>
+          <line>11</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingResult.class</url>
+          <line>13</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/HeuristicNodeDistance.class</url>
+          <line>13</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/LCSPathDistance.class</url>
+          <line>7</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/Node.class</url>
+          <line>13</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>20</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>62</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>63</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>64</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>66</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ReferenceElementsDto.class</url>
+          <line>10</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/HealingProcessor.class</url>
+          <line>39</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>76</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>86</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>85</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>83</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>80</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/BaseProcessor.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/HealingProcessor.class</url>
+          <line>18</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/GetReferenceElementsProcessor.class</url>
+          <line>23</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>168</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/stepdefinitions/WebsiteSteps.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/selectors/WebsiteLocators.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>135</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>96</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>100</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/GetReferenceElementsProcessor.class</url>
+          <line>42</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/FindElementProcessor.class</url>
+          <line>23</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>88</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>90</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>82</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>83</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>102</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>103</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>105</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/GetReferenceElementsProcessor.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/GetReferenceElementsProcessor.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>70</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>66</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>71</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>73</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>64</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/pages/WebsitePage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/pages/WebsitePage.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/pages/WebsitePage.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gemini/mis/pages/WebsitePage.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingDriver.class</url>
+          <line>53</line>
+          <properties class="com.epam.healenium.SelfHealingDriver" method="create">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingDriver.class</url>
+          <line>48</line>
+          <properties class="com.epam.healenium.SelfHealingDriver" method="callInitActions">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>176</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="quit">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>34</line>
+          <properties class="com.epam.healenium.service.NodeService" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>37</line>
+          <properties class="com.epam.healenium.service.NodeService" method="getNodePath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/NodeService.class</url>
+          <line>61</line>
+          <properties class="com.epam.healenium.service.NodeService" method="toNode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>54</line>
+          <properties class="com.epam.healenium.service.HealingService" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>61</line>
+          <properties class="com.epam.healenium.service.HealingService" method="findNewLocations">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>97</line>
+          <properties class="com.epam.healenium.service.HealingService" method="getAllHealingCandidates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ConfigSelectorDto.class</url>
+          <line>54</line>
+          <properties class="com.epam.healenium.model.ConfigSelectorDto" method="equals">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ConfigSelectorDto.class</url>
+          <line>49</line>
+          <properties class="com.epam.healenium.model.ConfigSelectorDto" method="setEnableHealingElementsDto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ConfigSelectorDto.class</url>
+          <line>44</line>
+          <properties class="com.epam.healenium.model.ConfigSelectorDto" method="setDisableHealingElementDto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ConfigSelectorDto.class</url>
+          <line>101</line>
+          <properties class="com.epam.healenium.model.ConfigSelectorDto" method="hashCode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>69</line>
+          <properties class="com.epam.healenium.treecomparing.PathFinder" method="getSortedNodes">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>95</line>
+          <properties class="com.epam.healenium.client.RestClient" method="getElements">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>114</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="hashCode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>51</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="equals">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/Context.class</url>
+          <line>39</line>
+          <properties class="com.epam.healenium.model.Context" method="getReferenceElementsDto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/Context.class</url>
+          <line>93</line>
+          <properties class="com.epam.healenium.model.Context" method="setReferenceElementsDto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>132</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>36</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="setLCSDistance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>41</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="setCurPathHeight">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/HealingCandidateDto.class</url>
+          <line>46</line>
+          <properties class="com.epam.healenium.model.HealingCandidateDto" method="setNode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>75</line>
+          <properties class="com.epam.healenium.service.HealingService" method="toLocator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>83</line>
+          <properties class="com.epam.healenium.treecomparing.PathFinder" method="findAllLeafPaths">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>89</line>
+          <properties class="com.epam.healenium.treecomparing.PathFinder" method="addLeafPath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>39</line>
+          <properties class="com.epam.healenium.treecomparing.PathFinder" method="findScoresToNodes">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>107</line>
+          <properties class="com.epam.healenium.service.HealingService" method="construct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/elementcreators/AttributesElementCreator.class</url>
+          <line>21</line>
+          <properties class="com.epam.healenium.elementcreators.AttributesElementCreator" method="create">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/elementcreators/ClassElementCreator.class</url>
+          <line>14</line>
+          <properties class="com.epam.healenium.elementcreators.ClassElementCreator" method="create">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/GetReferenceElementsProcessor.class</url>
+          <line>49</line>
+          <properties class="com.epam.healenium.processor.GetReferenceElementsProcessor" method="execute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.15.0-rc1/jackson-databind-2.15.0-rc1.jar!/com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.class</url>
+          <line>225</line>
+          <properties class="com.fasterxml.jackson.databind.deser.DefaultDeserializationContext" method="createDummyInstance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/client/RestClient.class</url>
+          <line>164</line>
+          <properties class="com.epam.healenium.client.RestClient" method="getReferenceElements">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>75</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="saveElements">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>101</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="getNodePath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>107</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="replaceHealedElementLocator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>121</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="pageSource">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>125</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="parseTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>129</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="isHealingEnabled">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/SelfHealingEngine.class</url>
+          <line>161</line>
+          <properties class="com.epam.healenium.SelfHealingEngine" method="loadStoredSelectors">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/mapper/HealeniumMapper.class</url>
+          <line>38</line>
+          <properties class="com.epam.healenium.mapper.HealeniumMapper" method="buildDto">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/PathFinder.class</url>
+          <line>113</line>
+          <properties class="com.epam.healenium.treecomparing.PathFinder" method="normalizeScoreCap">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/processor/BaseProcessor.class</url>
+          <line>34</line>
+          <properties class="com.epam.healenium.processor.BaseProcessor" method="process">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/SessionContext.class</url>
+          <line>35</line>
+          <properties class="com.epam.healenium.model.SessionContext" method="getSessionSelectors">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/RequestDto.class</url>
+          <line>147</line>
+          <properties class="com.epam.healenium.model.RequestDto" method="setElementIds">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/HeuristicNodeDistance.class</url>
+          <line>22</line>
+          <properties class="com.epam.healenium.treecomparing.HeuristicNodeDistance" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/tree-comparing/0.4.11/tree-comparing-0.4.11.jar!/com/epam/healenium/treecomparing/LCSPathDistance.class</url>
+          <line>8</line>
+          <properties class="com.epam.healenium.treecomparing.LCSPathDistance" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>41</line>
+          <properties field="selectorDetailLevels" class="com.epam.healenium.service.HealingService" />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ReferenceElementsDto.class</url>
+          <line>11</line>
+          <properties field="pageContent" class="com.epam.healenium.model.ReferenceElementsDto" />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/model/ReferenceElementsDto.class</url>
+          <line>12</line>
+          <properties field="paths" class="com.epam.healenium.model.ReferenceElementsDto" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/com/epam/healenium/healenium-web/3.4.0/healenium-web-3.4.0.jar!/com/epam/healenium/service/HealingService.class</url>
+          <line>42</line>
+          <properties field="driver" class="com.epam.healenium.service.HealingService" />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="scoreds.get(0)" language="JAVA" />
+        <watch expression="node" language="JAVA" />
+        <watch expression="((DevToolsWebDriverFacade)((LeaveImplementation)this).driver).driverClass" language="JAVA" custom="net.thucydides.core.webdriver.DevToolsWebDriverFacade,com.gemini.mis.implementations.LeaveImplementation" />
+        <watch expression="context.getElements().get(0)" language="JAVA" />
+      </configuration>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="((SimpleConfig)finalizedConfig).object" custom="com.typesafe.config.impl.SimpleConfig" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
